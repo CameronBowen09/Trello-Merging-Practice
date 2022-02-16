@@ -3,9 +3,9 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
+    <title>Trello Practice</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='index.css'>
     
 </head>
 <body>
@@ -15,8 +15,20 @@
         </u>
     </h1>
     <p>
-        Do you like GitHub?
+        What are your favourate things?
     </p>
-    <script src='main.js'></script>
+    <div id="listPage">
+         <div id="formArea">
+                <label>My favourate things:
+                    <input type="text" id="iWant" />
+                </label>
+                <button type="button" id="addIt">Add It!</button>
+                <br>
+                <br>
+                <button type="button" id="printable" href = "#">Are you sure?</button>
+            </div>
+            <ul id="wishList"></ul>
+        </div>
+    <script src='index.js'></script>
 </body>
 </html>
